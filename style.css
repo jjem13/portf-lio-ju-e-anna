@@ -18,8 +18,8 @@ body {
     z-index: 10;
     padding: 10px 0;
     text-align: center;
-    list-style-type: square;
-   text-decoration: wavy;
+    list-style-type: none;
+   text-decoration: none;
 }
 
 .menu-superior ul {
@@ -63,6 +63,7 @@ h1 {
     padding-top: 10px;
     color: #FFC0CB;
 }
+
 .input-group {
     display: flex;
     align-items: center;
@@ -95,4 +96,92 @@ h1 {
 }
 .input-field:focus {
     outline: none;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #712f71;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+h2 {
+    color: #712f71;
+    font-size: 24px;
+    display: block;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+main {
+    display: block;
+    padding: 20px;
+    color: black;
+}
+
+h3 {
+    display: block;
+    padding: 30px;
+    color: #C71585;
+}
+
+.sobre-nos {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info-julia {
+    margin-top: 0%;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    display: block;
+}
+
+.h3-fisica {
+    display: block;
+    padding: 30px;
+    color: #C71585;
+}
+
+.h2-fisica {  
+    display: block;
+    color: #712f71;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.h2-mat {
+    display: block;
+    color: #712f71;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.h2-quimica {
+    display: block;
+    color: #712f71;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: italic;
 }
