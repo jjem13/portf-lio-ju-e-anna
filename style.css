@@ -206,3 +206,87 @@ footer {
     margin-top: 200px;
     margin-bottom: -30px;
   }  
+
+:root{
+    --preto: #000;
+    --rosa-claro: #ffc0cb;
+    --rosa:#C71585;
+    --roxo:#712f71;
+  }
+
+.menu-disciplina {
+    width: 20%;
+    display: inline-block; 
+}
+
+.botao-disciplinas {
+    cursor: pointer;
+    font-size: 25px;
+    background: none;
+    background-color: var(--rosa-claro);
+    border-radius: 25px;
+    color: var(--roxo);
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 2;
+    padding: 10px;
+}
+
+#menu-toggle {
+    display: none;
+}
+.lista-vertical {
+    display: none;
+    position: absolute;
+    background-color: var(--rosa);
+    box-shadow: 0 2px 5px var(--preto);
+    min-width: 190px;
+    z-index: 1;
+    left: 1rem;
+    top:100%;
+}
+
+.lista-vertical a {
+    color: var(--preto);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.lista-vertical a:hover {
+    background-color: var(--rosa-claro);
+}
+
+#menu-toggle:checked ~ .lista-vertical {
+    display: block;
+}
+#menu-toggle:checked + .botao-disciplinas {
+    background-color: var(--preto);
+}
+
+.links-principais {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+
+.lista-horizontal {
+    list-style: none;
+    display: flex;
+    font-size: 24px;
+    gap: 32px; 
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--rosa-claro);
+}
+
+a:hover {
+    color: var(--preto);
+}
